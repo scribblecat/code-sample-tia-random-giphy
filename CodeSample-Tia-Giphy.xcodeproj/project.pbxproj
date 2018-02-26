@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE3F096204479B600F6309D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F095204479B600F6309D /* AppDelegate.swift */; };
+		5AE3F098204479B600F6309D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F097204479B600F6309D /* ViewController.swift */; };
+		5AE3F09B204479B600F6309D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3F099204479B600F6309D /* Main.storyboard */; };
+		5AE3F09D204479B600F6309D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3F09C204479B600F6309D /* Assets.xcassets */; };
+		5AE3F0A0204479B600F6309D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3F09E204479B600F6309D /* LaunchScreen.storyboard */; };
+		5AE3F0AB204479B600F6309D /* CodeSample_Tia_GiphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0AA204479B600F6309D /* CodeSample_Tia_GiphyTests.swift */; };
+		5AE3F0B6204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0B5204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE3F0A7204479B600F6309D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE3F08A204479B600F6309D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE3F091204479B600F6309D;
+			remoteInfo = "CodeSample-Tia-Giphy";
+		};
+		5AE3F0B2204479B600F6309D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE3F08A204479B600F6309D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE3F091204479B600F6309D;
+			remoteInfo = "CodeSample-Tia-Giphy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AE3F092204479B600F6309D /* CodeSample-Tia-Giphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeSample-Tia-Giphy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE3F095204479B600F6309D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AE3F097204479B600F6309D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE3F09A204479B600F6309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE3F09C204479B600F6309D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE3F09F204479B600F6309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AE3F0A1204479B600F6309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE3F0A6204479B600F6309D /* CodeSample-Tia-GiphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodeSample-Tia-GiphyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE3F0AA204479B600F6309D /* CodeSample_Tia_GiphyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSample_Tia_GiphyTests.swift; sourceTree = "<group>"; };
+		5AE3F0AC204479B600F6309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE3F0B1204479B600F6309D /* CodeSample-Tia-GiphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodeSample-Tia-GiphyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE3F0B5204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSample_Tia_GiphyUITests.swift; sourceTree = "<group>"; };
+		5AE3F0B7204479B600F6309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE3F08F204479B600F6309D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE3F0A3204479B600F6309D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE3F0AE204479B600F6309D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE3F089204479B600F6309D = {
+			isa = PBXGroup;
+			children = (
+				5AE3F094204479B600F6309D /* CodeSample-Tia-Giphy */,
+				5AE3F0A9204479B600F6309D /* CodeSample-Tia-GiphyTests */,
+				5AE3F0B4204479B600F6309D /* CodeSample-Tia-GiphyUITests */,
+				5AE3F093204479B600F6309D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE3F093204479B600F6309D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F092204479B600F6309D /* CodeSample-Tia-Giphy.app */,
+				5AE3F0A6204479B600F6309D /* CodeSample-Tia-GiphyTests.xctest */,
+				5AE3F0B1204479B600F6309D /* CodeSample-Tia-GiphyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE3F094204479B600F6309D /* CodeSample-Tia-Giphy */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F095204479B600F6309D /* AppDelegate.swift */,
+				5AE3F097204479B600F6309D /* ViewController.swift */,
+				5AE3F099204479B600F6309D /* Main.storyboard */,
+				5AE3F09C204479B600F6309D /* Assets.xcassets */,
+				5AE3F09E204479B600F6309D /* LaunchScreen.storyboard */,
+				5AE3F0A1204479B600F6309D /* Info.plist */,
+			);
+			path = "CodeSample-Tia-Giphy";
+			sourceTree = "<group>";
+		};
+		5AE3F0A9204479B600F6309D /* CodeSample-Tia-GiphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F0AA204479B600F6309D /* CodeSample_Tia_GiphyTests.swift */,
+				5AE3F0AC204479B600F6309D /* Info.plist */,
+			);
+			path = "CodeSample-Tia-GiphyTests";
+			sourceTree = "<group>";
+		};
+		5AE3F0B4204479B600F6309D /* CodeSample-Tia-GiphyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F0B5204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift */,
+				5AE3F0B7204479B600F6309D /* Info.plist */,
+			);
+			path = "CodeSample-Tia-GiphyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE3F091204479B600F6309D /* CodeSample-Tia-Giphy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE3F0BA204479B600F6309D /* Build configuration list for PBXNativeTarget "CodeSample-Tia-Giphy" */;
+			buildPhases = (
+				5AE3F08E204479B600F6309D /* Sources */,
+				5AE3F08F204479B600F6309D /* Frameworks */,
+				5AE3F090204479B600F6309D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CodeSample-Tia-Giphy";
+			productName = "CodeSample-Tia-Giphy";
+			productReference = 5AE3F092204479B600F6309D /* CodeSample-Tia-Giphy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE3F0A5204479B600F6309D /* CodeSample-Tia-GiphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE3F0BD204479B600F6309D /* Build configuration list for PBXNativeTarget "CodeSample-Tia-GiphyTests" */;
+			buildPhases = (
+				5AE3F0A2204479B600F6309D /* Sources */,
+				5AE3F0A3204479B600F6309D /* Frameworks */,
+				5AE3F0A4204479B600F6309D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE3F0A8204479B600F6309D /* PBXTargetDependency */,
+			);
+			name = "CodeSample-Tia-GiphyTests";
+			productName = "CodeSample-Tia-GiphyTests";
+			productReference = 5AE3F0A6204479B600F6309D /* CodeSample-Tia-GiphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE3F0B0204479B600F6309D /* CodeSample-Tia-GiphyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE3F0C0204479B600F6309D /* Build configuration list for PBXNativeTarget "CodeSample-Tia-GiphyUITests" */;
+			buildPhases = (
+				5AE3F0AD204479B600F6309D /* Sources */,
+				5AE3F0AE204479B600F6309D /* Frameworks */,
+				5AE3F0AF204479B600F6309D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE3F0B3204479B600F6309D /* PBXTargetDependency */,
+			);
+			name = "CodeSample-Tia-GiphyUITests";
+			productName = "CodeSample-Tia-GiphyUITests";
+			productReference = 5AE3F0B1204479B600F6309D /* CodeSample-Tia-GiphyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE3F08A204479B600F6309D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sadie Contini";
+				TargetAttributes = {
+					5AE3F091204479B600F6309D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5AE3F0A5204479B600F6309D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AE3F091204479B600F6309D;
+					};
+					5AE3F0B0204479B600F6309D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5AE3F091204479B600F6309D;
+					};
+				};
+			};
+			buildConfigurationList = 5AE3F08D204479B600F6309D /* Build configuration list for PBXProject "CodeSample-Tia-Giphy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE3F089204479B600F6309D;
+			productRefGroup = 5AE3F093204479B600F6309D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE3F091204479B600F6309D /* CodeSample-Tia-Giphy */,
+				5AE3F0A5204479B600F6309D /* CodeSample-Tia-GiphyTests */,
+				5AE3F0B0204479B600F6309D /* CodeSample-Tia-GiphyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE3F090204479B600F6309D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3F0A0204479B600F6309D /* LaunchScreen.storyboard in Resources */,
+				5AE3F09D204479B600F6309D /* Assets.xcassets in Resources */,
+				5AE3F09B204479B600F6309D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE3F0A4204479B600F6309D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE3F0AF204479B600F6309D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE3F08E204479B600F6309D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3F098204479B600F6309D /* ViewController.swift in Sources */,
+				5AE3F096204479B600F6309D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE3F0A2204479B600F6309D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3F0AB204479B600F6309D /* CodeSample_Tia_GiphyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE3F0AD204479B600F6309D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE3F0B6204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE3F0A8204479B600F6309D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE3F091204479B600F6309D /* CodeSample-Tia-Giphy */;
+			targetProxy = 5AE3F0A7204479B600F6309D /* PBXContainerItemProxy */;
+		};
+		5AE3F0B3204479B600F6309D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE3F091204479B600F6309D /* CodeSample-Tia-Giphy */;
+			targetProxy = 5AE3F0B2204479B600F6309D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE3F099204479B600F6309D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE3F09A204479B600F6309D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE3F09E204479B600F6309D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE3F09F204479B600F6309D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE3F0B8204479B600F6309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE3F0B9204479B600F6309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE3F0BB204479B600F6309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				INFOPLIST_FILE = "CodeSample-Tia-Giphy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-Giphy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE3F0BC204479B600F6309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				INFOPLIST_FILE = "CodeSample-Tia-Giphy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-Giphy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE3F0BE204479B600F6309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				INFOPLIST_FILE = "CodeSample-Tia-GiphyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-GiphyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSample-Tia-Giphy.app/CodeSample-Tia-Giphy";
+			};
+			name = Debug;
+		};
+		5AE3F0BF204479B600F6309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				INFOPLIST_FILE = "CodeSample-Tia-GiphyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-GiphyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSample-Tia-Giphy.app/CodeSample-Tia-Giphy";
+			};
+			name = Release;
+		};
+		5AE3F0C1204479B600F6309D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				INFOPLIST_FILE = "CodeSample-Tia-GiphyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-GiphyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CodeSample-Tia-Giphy";
+			};
+			name = Debug;
+		};
+		5AE3F0C2204479B600F6309D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				INFOPLIST_FILE = "CodeSample-Tia-GiphyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-GiphyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CodeSample-Tia-Giphy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE3F08D204479B600F6309D /* Build configuration list for PBXProject "CodeSample-Tia-Giphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE3F0B8204479B600F6309D /* Debug */,
+				5AE3F0B9204479B600F6309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE3F0BA204479B600F6309D /* Build configuration list for PBXNativeTarget "CodeSample-Tia-Giphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE3F0BB204479B600F6309D /* Debug */,
+				5AE3F0BC204479B600F6309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE3F0BD204479B600F6309D /* Build configuration list for PBXNativeTarget "CodeSample-Tia-GiphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE3F0BE204479B600F6309D /* Debug */,
+				5AE3F0BF204479B600F6309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE3F0C0204479B600F6309D /* Build configuration list for PBXNativeTarget "CodeSample-Tia-GiphyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE3F0C1204479B600F6309D /* Debug */,
+				5AE3F0C2204479B600F6309D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE3F08A204479B600F6309D /* Project object */;
+}
