@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5AE3F096204479B600F6309D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F095204479B600F6309D /* AppDelegate.swift */; };
-		5AE3F098204479B600F6309D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F097204479B600F6309D /* ViewController.swift */; };
+		5AE3F098204479B600F6309D /* RandomGiphyImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F097204479B600F6309D /* RandomGiphyImagesVC.swift */; };
 		5AE3F09B204479B600F6309D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3F099204479B600F6309D /* Main.storyboard */; };
 		5AE3F09D204479B600F6309D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3F09C204479B600F6309D /* Assets.xcassets */; };
 		5AE3F0A0204479B600F6309D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3F09E204479B600F6309D /* LaunchScreen.storyboard */; };
 		5AE3F0AB204479B600F6309D /* CodeSample_Tia_GiphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0AA204479B600F6309D /* CodeSample_Tia_GiphyTests.swift */; };
 		5AE3F0B6204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0B5204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift */; };
+		5AE3F0C8204481F500F6309D /* WebAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0C7204481F500F6309D /* WebAPIService.swift */; };
+		5AE3F0CA2044822800F6309D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3F0C92044822700F6309D /* Alamofire.framework */; };
+		5AE3F0CB2044822800F6309D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE3F0C92044822700F6309D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AE3F0CF204482AF00F6309D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0CE204482AF00F6309D /* AppError.swift */; };
+		5AE3F0D420449C0F00F6309D /* GiphyImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0D320449C0F00F6309D /* GiphyImageCell.swift */; };
+		5AE3F0D620449CB000F6309D /* GiphyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE3F0D520449CB000F6309D /* GiphyImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +39,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5AE3F0CC2044822800F6309D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5AE3F0CB2044822800F6309D /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5AE3F092204479B600F6309D /* CodeSample-Tia-Giphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeSample-Tia-Giphy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE3F095204479B600F6309D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AE3F097204479B600F6309D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE3F097204479B600F6309D /* RandomGiphyImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGiphyImagesVC.swift; sourceTree = "<group>"; };
 		5AE3F09A204479B600F6309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE3F09C204479B600F6309D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE3F09F204479B600F6309D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,11 @@
 		5AE3F0B1204479B600F6309D /* CodeSample-Tia-GiphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodeSample-Tia-GiphyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE3F0B5204479B600F6309D /* CodeSample_Tia_GiphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSample_Tia_GiphyUITests.swift; sourceTree = "<group>"; };
 		5AE3F0B7204479B600F6309D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE3F0C7204481F500F6309D /* WebAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIService.swift; sourceTree = "<group>"; };
+		5AE3F0C92044822700F6309D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5AE3F0CE204482AF00F6309D /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		5AE3F0D320449C0F00F6309D /* GiphyImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImageCell.swift; sourceTree = "<group>"; };
+		5AE3F0D520449CB000F6309D /* GiphyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE3F0CA2044822800F6309D /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +103,7 @@
 		5AE3F089204479B600F6309D = {
 			isa = PBXGroup;
 			children = (
+				5AE3F0C92044822700F6309D /* Alamofire.framework */,
 				5AE3F094204479B600F6309D /* CodeSample-Tia-Giphy */,
 				5AE3F0A9204479B600F6309D /* CodeSample-Tia-GiphyTests */,
 				5AE3F0B4204479B600F6309D /* CodeSample-Tia-GiphyUITests */,
@@ -98,11 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				5AE3F095204479B600F6309D /* AppDelegate.swift */,
-				5AE3F097204479B600F6309D /* ViewController.swift */,
 				5AE3F099204479B600F6309D /* Main.storyboard */,
-				5AE3F09C204479B600F6309D /* Assets.xcassets */,
-				5AE3F09E204479B600F6309D /* LaunchScreen.storyboard */,
 				5AE3F0A1204479B600F6309D /* Info.plist */,
+				5AE3F0C320447B8500F6309D /* View */,
+				5AE3F0D720449CDE00F6309D /* Model */,
+				5AE3F0D22044964F00F6309D /* Networking */,
+				5AE3F0C620447CE000F6309D /* Supporting Files */,
 			);
 			path = "CodeSample-Tia-Giphy";
 			sourceTree = "<group>";
@@ -125,6 +153,41 @@
 			path = "CodeSample-Tia-GiphyUITests";
 			sourceTree = "<group>";
 		};
+		5AE3F0C320447B8500F6309D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F097204479B600F6309D /* RandomGiphyImagesVC.swift */,
+				5AE3F0D320449C0F00F6309D /* GiphyImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AE3F0C620447CE000F6309D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F0CE204482AF00F6309D /* AppError.swift */,
+				5AE3F09E204479B600F6309D /* LaunchScreen.storyboard */,
+				5AE3F09C204479B600F6309D /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE3F0D22044964F00F6309D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F0C7204481F500F6309D /* WebAPIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5AE3F0D720449CDE00F6309D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AE3F0D520449CB000F6309D /* GiphyImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +198,8 @@
 				5AE3F08E204479B600F6309D /* Sources */,
 				5AE3F08F204479B600F6309D /* Frameworks */,
 				5AE3F090204479B600F6309D /* Resources */,
+				5AE3F0CC2044822800F6309D /* Embed Frameworks */,
+				5AE3F0CD2044824C00F6309D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,13 +319,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AE3F0CD2044824C00F6309D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AE3F08E204479B600F6309D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE3F098204479B600F6309D /* ViewController.swift in Sources */,
+				5AE3F098204479B600F6309D /* RandomGiphyImagesVC.swift in Sources */,
+				5AE3F0CF204482AF00F6309D /* AppError.swift in Sources */,
+				5AE3F0D620449CB000F6309D /* GiphyImage.swift in Sources */,
 				5AE3F096204479B600F6309D /* AppDelegate.swift in Sources */,
+				5AE3F0D420449C0F00F6309D /* GiphyImageCell.swift in Sources */,
+				5AE3F0C8204481F500F6309D /* WebAPIService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +514,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "CodeSample-Tia-Giphy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-Giphy";
@@ -443,6 +533,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXRTMMS4GE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "CodeSample-Tia-Giphy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codesample.CodeSample-Tia-Giphy";
